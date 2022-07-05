@@ -29,7 +29,7 @@ const showCountries = async () => {
               country.capital
             }</h3>>
             <h3 class="country-name" style="font-size:15px">monnaie: <br>${
-              country.currencies[0].code
+              country.currencies[0].name
             }</h3>
             <div class="country-info">
               <h2 class="country-population">${numberWithCommas(
